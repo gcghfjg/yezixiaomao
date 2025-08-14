@@ -22,7 +22,7 @@ const CFIP = process.env.CFIP || 'www.visa.com.sg';         // 节点优选域�
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
 const ARGO_PORT = process.env.ARGO_PORT || 15000;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const PORT = process.env.SERVER_PORT || process.env.PORT || 9150;        // http服务订阅端口
+const PORT = process.env.SERVER_PORT || process.env.PORT || 24000;        // http服务订阅端口
 
 //创建运行文件夹
 if (!fs.existsSync(FILE_PATH)) {
